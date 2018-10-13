@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: sans-serif;
+	background-color: #281e65;
+}
+.all-page{
+	background-image: url(images/bg-body.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	margin: 5px auto;
+	width: calc(100% - 10px);
+	height: 100vh;
+}
+.main-page{
+	margin: 0 auto;
+	width: calc(100% - 80px);
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	min-height: 70px;
+	padding:40px 0 20px;
+}
+.logo{
+	flex: 4;
+}
+.logo img{
+	width: 135px;
+}
+.right-header{
+	flex:1;
+	display: flex;
+}
+.right-header a{
+	flex: 1;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius: 28px;
+    max-height: 16px;
+    padding: 10px 0px;
+    margin: 0 10px;
+}
+.btn-1:hover{
+	background: rgb(255,255,255,0.4);
+	padding: 12px 0;
+}
+.btn-2{
+	border:2px solid #fff;
+}
+.btn-2:hover{
+	background-color: rgb(238, 0, 118);
+}
+.content-page{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 0 auto;
+}
+.message-content{
+	color: rgb(69, 33, 98);
+	background: #fff;
+	border-radius: 17px;
+	margin-bottom: 2px;
+	padding: 10px 27px;
+	width: fit-content;
+	min-width: 334px;
+	line-height: 20px;
+}
+.big-img img {
+    max-width: 285px;
+    border-radius: 17px;
+}
+.block-message {
+    display: flex;
+}
+.block-message img{
+	margin-left: -67px;
+	margin-right: 20px;
+}
+.block-message span{
+	color: rgb(69, 33, 98);
+	background: #fff;
+	border-radius: 17px;
+	margin-bottom: 2px;
+	padding: 10px 27px;
+	width: fit-content;
+	line-height: 20px;
+	position: relative;
+}
+.block-message span:before{
+	content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -4px;
+    width: 20px;
+    bottom: -2px;
+    background-image: url(images/pico.svg);
+    height: 30px;
+}
+.text-option {
+    padding: 5px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.option{
+	display: flex;
+	margin: 10px 0 0;
+}
+.btn-3{
+	background-color: rgb(238, 0, 118);
+	text-align: center;
+	padding: 20px 40px;
+	margin-right: 8px;
+	border: 2px solid rgb(188, 0, 68);
+}
+.btn-3:hover{
+	background-color: rgb(255, 30, 148);
+}
+footer{
+	width: 60%;
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: bold;
+}
